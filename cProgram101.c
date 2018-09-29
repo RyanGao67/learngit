@@ -7,5 +7,9 @@ int main(){
 	char b[] = "this is ";
 	printf("%c\n", *(b+1));
 	printf("%c\n", b[1]);
+printf("+++++++++++++++");
+	char *p = "this is ";
+	p[1]= 'p';
+	printf("%s", p);
 	return 0;
 }
